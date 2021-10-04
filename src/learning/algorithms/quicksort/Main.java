@@ -12,6 +12,7 @@ public class Main {
         }
     }
 
+    // quickSort is recursive
     public static void quickSort(int[] input, int start, int end) {
         if(end - start < 2) {
             return;
@@ -45,6 +46,6 @@ public class Main {
         }
 
         input[j] = pivot;
-        return j;
+        return j; // return pivot index #
     }
 }
